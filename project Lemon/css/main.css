@@ -1,0 +1,246 @@
+body {
+	font-family: 'Josefin Sans', sans-serif;
+	background: #eaeaea;
+	margin: 0;
+	padding: 0;
+	
+}
+
+h1, h2, h3, p, div, a,
+button, span, ul, li, form, input {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+ul, li {
+	display: block;
+}
+
+/*футер*/
+
+.container {
+	width: 1120px;
+	margin: 0 auto;
+}
+
+.logo {
+	text-align: center;
+	margin-top: 250px;
+	margin-bottom: 120px;
+}
+
+.menu {
+	background: #f8f8f8;
+	font-family: 'Josefin Sans';
+	font-weight: 300;
+	font-size: 16px;
+	color: #000;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-transform: uppercase;
+	padding: 40px 95px;
+	box-shadow: 1px 0 13px rgba(11, 12, 12, 0.15);
+}
+
+.menu__items {
+	display: flex;
+    justify-content: space-between;
+}
+
+.menu__item {
+	display: block;
+	padding: 20px 10px;
+}
+
+.menu__item a {	
+	text-decoration: none;
+}
+
+.menu__btn {
+	display: flex;
+	padding: 10px 30px;
+	border: 2px solid #c1c1c1;
+}
+
+.menu__btn i {
+	font-size: 12px;
+	color: #c1c1c1;
+	margin-right: 5px;
+}
+
+.menu__btn a {
+	font-size: 12px;
+	text-decoration: none;
+}
+
+.first {
+	background: #f8f8f8;
+	background: url(../img/Background.png) no-repeat;	
+	margin-top: 80px;
+	margin-bottom: 80px;
+	box-shadow: 13px 13px 13px -13px rgba(11, 12, 12, 0.15);
+}
+
+.recipe {
+	padding-left: 85px;
+    padding-top: 45px;
+    padding-bottom: 60px;    
+}
+
+.recipe__logo {	
+	margin-bottom: 35px;
+}
+
+.recipe__title {
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	color: #911026;
+	font-size: 24px;
+	text-transform: capitalize;
+}
+
+.recipe__text {
+	font-weight: 300;
+	font-size: 16px;
+	width: 300px;
+	margin-top: 25px;
+}
+
+.recipe__btn {
+	margin-top: 30px;	
+}
+
+.recipe__btn a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size: 12px;	
+	padding: 10px;
+	border: 2px solid #c1c1c1;	
+	box-shadow: 13px 0px 13px -13px rgba(11, 12, 12, 0.15);
+}
+
+/*рецепты*/
+
+
+.recipes__items {
+	background: #f8f8f8;
+	display: flex;
+	justify-content: space-between;
+	padding: 40px;
+	margin-bottom: 80px;
+	box-shadow: 1px 0 13px rgba(11, 12, 12, 0.15);
+}
+
+.recipes__item_text {
+	font-size: 12px;
+	font-weight: 300;
+	width: 313px;
+	margin-top: 15px;
+}
+
+/*выбранный рецепт*/
+
+.bananas {
+	background: url(../img/PhotoRecipeBig.png) no-repeat;
+	box-shadow: 13px 13px 13px -13px rgba(11, 12, 12, 0.15);
+	padding-top: 30px;
+	padding-bottom: 35px;
+	margin-bottom: 130px;
+}
+
+.bananas__title {
+	font-family: 'Playfair Display', serif;
+	font-weight: 900;
+	font-size: 32px;
+	margin-bottom: 30px;
+}
+
+.bananas__description {
+	margin-left: 560px;
+}
+
+.bananas__title_under {
+	display: flex;
+	justify-content: space-between;	
+	font-weight: 300;
+	align-items: center;
+	margin-bottom: 30px;
+}
+
+.bananas__signs {
+	font-size: 16px;
+	font-family: Open Sans;	
+}
+
+.bananas__signs span {
+	margin-right: 15px;
+	margin-bottom: 30px;
+}
+
+.bananas__btn {
+	margin-right: 70px;
+}
+
+.bananas__btn a {
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 10px;
+	border: 2px solid #c1c1c1;
+	font-family: Josefin Sans;	
+	font-size: 12px;
+}
+
+.bananas__text {
+	font-family: Josefin Sans;
+	font-weight: 300;
+	font-size: 12px;
+	width: 480px;
+	border-right: 2px solid #dddddd;
+	padding-right: 15px;
+}
+
+.banannas__text_title {
+	font-family: Playfair Display;
+	font-weight: 700;
+	font-size: 16px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+/*футер*/
+
+.footer {
+	background: #2f2f2f;
+	font-family: Josefin Sans;
+	font-weight: 300;
+	font-size: 12px;
+	color: #fefefe;
+	height: 180px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 80px;
+	margin-bottom: 80px;
+	box-shadow: 1px 0 13px rgba(11, 12, 12, 0.15);
+}
+
+
+
+.footer__nav {
+	text-transform: uppercase;
+	display: flex;
+	justify-content: space-between;	
+}
+
+.footer__nav_item a {
+	text-decoration: none;
+	color: #fefefe;
+	padding: 10px 10px;
+}
+
+.footer__credits_text {
+	text-transform: uppercase;
+}
